@@ -24,11 +24,15 @@ h3 {
 }
 
 h4 {
-    font: 400 0.9em 'Open Sans', sans-serif;
+    font: 400 1em 'Nunito', sans-serif;
 }
 
 ul {
     padding-inline-start: 26px;
+}
+
+li {
+    margin-bottom: 0.1em;
 }
 
 a,
@@ -37,9 +41,20 @@ a:visited,
 a:hover,
 a:active {
     color: inherit;
-    text-decoration: inherit;
-    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.entry-header a {
+    background-color: #eeeeee;
+    border-radius: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
     font-weight: 600;
+    font-size: 0.9em;
+}
+
+em {
+    font-style: italic;
 }
 
 .dates {
@@ -87,17 +102,19 @@ a:active {
 
 .entry-header {
     flex: 0 0 20vw;
+    font-family: 'Nunito', sans-serif;
 }
 
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 60px, 0;
-    height: 200px;
+    padding-bottom: 60px;
+    padding-top: 10px;
 }
 
 .footer-entry {
     margin-inline-start: 10px;
     margin-inline-end: 10px;
+    font: 600 1.2em 'Nunito', sans-serif;
 }
