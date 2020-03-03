@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font: 400 14px 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font: 300 2.2em 'Nunito', sans-serif;
+}
+
+h2 {
+    font: 400 1.8em 'Nunito', sans-serif;
+}
+
+h3 {
+    font: 600 1.1em 'Nunito', sans-serif;
+}
+
+h4 {
+    font: 400 0.9em 'Open Sans', sans-serif;
+}
+
+ul {
+    padding-inline-start: 26px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: inherit;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.dates {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.center-content {
+    max-width: 1024px;
+    min-width: 400px;
+    width: 60vw;
+    display: flex;
+    margin: 20px auto;
+}
+
+#intro {
+    justify-content: start;
+    width: 50vw;
+}
+
+#intro-content {
+    padding-left: 20px;
+}
+
+.profimg {
+    width: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+#main-content {
+    flex-direction: column;
+}
+
+.timeline {
+    margin: 10px 0;
+}
+
+.timeline-entry {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.entry-header {
+    flex: 0 0 20vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px, 0;
+    height: 200px;
+}
+
+.footer-entry {
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}

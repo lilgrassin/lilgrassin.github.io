@@ -1,7 +1,154 @@
 <!DOCTYPE html>
 <html>
+<link href="resources/index.css" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i|Open+Sans:400,400i,600,600i,700,700i&display=swap"
+    rel="stylesheet">
+<script src="https://kit.fontawesome.com/34c9f235cc.js" crossorigin="anonymous"></script>
+<title>Portfolio: Lillian Grassin-Drake</title>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header class="center-content" id="intro">
+        <img class="profimg" src="media/profile-photo.jpg" />
+        <article id="intro-content">
+            <h1>Lillian Grassin-Drake</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit nobis ex sit molestiae velit ab
+                reprehenderit, deleniti, ea autem id placeat assumenda nulla tenetur omnis sunt cum harum tempore ullam!
+            </p>
+        </article>
+    </header>
+
+    <main class="center-content" id="main-content">
+
+        <section class="timeline">
+            <h2>Experience</h2>
+            <article class="timeline-entry">
+                <header class="entry-header">
+                    <h3>Teaching Assistant</h3>
+                    <h4>University of Massachusetts, Amherst</h4>
+                    <p class="dates">Jan 2019 – Dec 2019 </p>
+                </header>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Graded assignments and exams,
+                        answered student questions, and developed course material for CS
+                        377 (Operating Systems).</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Received Outstanding Undergraduate
+                        TA Award for Fall 2019 semester.</li>
+                </ul>
+            </article>
+            <article class="timeline-entry">
+                <header class="entry-header">
+                    <h3>Software Engineering Intern</h3>
+                    <h4>Microsoft</h4>
+                    <p class="dates">May 2019 – Aug 2019</p>
+                </header>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Developed Linux virtualization
+                        stack capable of hosting virtual machines on Microsoft’s
+                        hypervisor, Hyper-V.</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Engineered across many levels of
+                        the stack, culminating in a demo of a modified Linux kernel
+                        hosting a guest Linux virtual machine with Hyper-V.</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Implemented Linux boot-time kernel
+                        support and kernel API. Ported Rust virtual machine manager
+                        from Windows.</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Owned all aspects of architecture
+                        and API design. Prepared kernel patches for upstream
+                        integration.</li>
+                </ul>
+            </article>
+            <article class="timeline-entry">
+                <header class="entry-header">
+                    <h3>Software Engineering Intern</h3>
+                    <h4>Microsoft</h4>
+                    <p class="dates">Jun 2018 – Aug 2018</p>
+                </header>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Worked on a team of 7 interns to
+                        enhance Ink To Code, an existing project that turns sketched UI
+                        wireframes to XAML code.</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Separated and refactored backend
+                        logic; ported codebase to .Net Standard for cross-platform
+                        development.</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Lead weekly sprint planning;
+                        managed product backlog and pull requests; helped team members
+                        problem solve.</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Coordinated with other Microsoft
+                        teams to test and give feedback on in-development technologies.
+                    </li>
+                </ul>
+            </article>
+            <article class="timeline-entry">
+                <header class="entry-header">
+                    <h3>Business Administrator</h3>
+                    <h4>The Noack Organ Co.</h4>
+                    <p class="dates">Feb 2016 – Aug 2017</p>
+                </header>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Overhauled accounting system;
+                        automated payroll calculations, job costing, and transaction
+                        importation.</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Built a responsive company website
+                        with a user-friendly content management system using PHP.
+                    </li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Created design proposals for
+                        prospective clients using Adobe Illustrator and Photoshop.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="timeline">
+            <h2>Projects</h2>
+            <article class="timeline-entry">
+                <header class="entry-header">
+                    <h3>Smash: A Compressing Memory Allocator</h3>
+                    <h4>Class project&ensp;(C/C++)</h4>
+                    <p class="dates">Feb 2019 – Dec 2019</p>
+                </header>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Designed a BiBOP-style allocator
+                        that compresses cold pages as part of a combined class/research project</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Implemented page compression with
+                        Facebook’s Zstandard library, using dictionaries for improved compression of small objects
+                    </li>
+                </ul>
+            </article>
+            <article class="timeline-entry">
+                <header class="entry-header">
+                    <h3>Spot: A Pet Operating System</h3>
+                    <h4><a href=""><i class="fab fa-github"></i> StaticProgress/Spot</a>&ensp;(C, Assembly)</h4>
+                    <p class="dates">May 2018 – Present</p>
+                </header>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Created a toy UEFI-based operating
+                        system to explore new OS technologies</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Automated build system using GNU
+                        EFI and implemented a basic graphics driver</li>
+                </ul>
+            </article>
+            <article class="timeline-entry">
+                <header class="entry-header">
+                    <h3>PipeCutter</h3>
+                    <h4><a href="https://github.com/lilgrassin/PipeCutter"><i class="fab fa-github"></i>
+                            lilgrassin/PipeCutter</a>&ensp;(C#)</h4>
+                    <p class="dates">Aug 2018 – Present</p>
+                </header>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Developed a cross-platform mobile
+                        app that calculates the amount to cut off an organ pipe for tuning</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right"></i></span>Calculates length using fundamental
+                        frequency, desired musical temperament, humidity, and temperature</li>
+                </ul>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="footer-entry"><a href=""><i class="fab fa-github"></i> GitHub</a></p>
+        <p class="footer-entry"><a href=""><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+        <p class="footer-entry"><a href=""><i class="fab fa-tumblr-square"></i> Portfolio</a></p>
+    </footer>
 </body>
+
 </html>
